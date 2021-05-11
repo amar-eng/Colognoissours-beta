@@ -1,0 +1,29 @@
+@import '../../partials/variables';
+@import '../../partials/fonts';
+@import '../../partials/mixins';
+
+.navbar{
+    background-color:white;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+    
+    @include normal;
+    &__content{
+        display: flex;
+        
+    }
+    li{
+        margin:0 1.5rem; 
+        font-size: 16px;   
+    }
+    &__text{
+        color: $gold;
+    }
+    &__logo{
+        width: 12rem;
+        height: auto;
+    }
+}

@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "Titillium Web-normal";
+    font-weight: normal;
+    src: url(../assets/fonts/TitilliumWeb-Regular.ttf);
+  }
+@font-face {
+    font-family: "Titillium Web-bold";
+    font-weight: bold;
+    src: url(../assets/fonts/TitilliumWeb-SemiBold.ttf);
+}
+@mixin bold{
+    font-family: "Titillium Web-bold";
+    font-weight: 600;
+  }
+  @mixin normal{
+    font-family: "Titillium Web-normal";
+    font-weight: 400;
+  }
+  
