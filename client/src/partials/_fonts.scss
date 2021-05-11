@@ -8,12 +8,22 @@
     font-weight: bold;
     src: url(../assets/fonts/TitilliumWeb-SemiBold.ttf);
 }
+@font-face {
+    font-family: "Elmessiri";
+    font-weight: normal;
+    src: url(../assets/El_Messiri/ElMessiri-Regular.ttf);
+}
+
 @mixin bold{
     font-family: "Titillium Web-bold";
     font-weight: 600;
   }
-  @mixin normal{
+@mixin normal{
     font-family: "Titillium Web-normal";
     font-weight: 400;
   }
+@mixin cool{
+  font-family: "Elmessiri";
+  font-weight: 400;
+}
   

@@ -6,6 +6,11 @@ function App() {
     <div className="App">
     <BrowserRouter>
       <Navbar/>
+      <Switch>
+        <Route path ='/'>
+
+        </Route>
+      </Switch>
     </BrowserRouter>
 
     </div>
