@@ -1,0 +1,30 @@
+@import '../../partials/variables';
+@import '../../partials/fonts';
+@import '../../partials/mixins';
+.hero{
+    background-color: black ;
+    background-image: url("../../assets/pics/royaloud.jpg");
+    // background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    
+    // height: 80vh; 
+    padding: 17rem 3rem;
+   @include cool; 
+   font-size: 26px;
+   
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+    &__container{
+        margin-left: 57rem;
+    }
+    &__header{
+        font-size: 34px;
+        color: $darkgold;
+    }
+    &__text{
+       color: $light-grey;
+        ;
+    }
+}

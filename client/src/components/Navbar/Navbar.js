@@ -6,6 +6,7 @@ import * as AiIcons from 'react-icons/ai';
 import {Sidebar} from './Sidebar'; 
 import logo from '../../assets/logo/logo.png'; 
 import {IconContext}  from 'react-icons'; 
+
 const Navbar = () => {
     const [sidebar, setSidebar] = useState(false)
 
@@ -15,7 +16,7 @@ const Navbar = () => {
     return (
         <>
         
-        <IconContext.Provider value={{ color: 'gold' }}>
+        <IconContext.Provider value={{ color: 'white' }}>
           <div className='navbar'>
             <Link to='#' className='menu-bars'>
               <FaIcons.FaBars onClick={showSidebar} />
